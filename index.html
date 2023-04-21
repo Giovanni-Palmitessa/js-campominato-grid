@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Griglia Campo Minato</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -16,6 +18,13 @@
         </div>
 
         <div class="play-button">
+            <label for="difficulty">Scegli la difficoltà</label>
+            <select name="difficulty" id="difficulty">
+                <option value="facile">Facile</option>
+                <option value="difficile">Difficile</option>
+                <option value="impossibile">Impossibile</option>
+            </select>
+
             <button id="play">Gioca!</button>
         </div>
     </header>
@@ -34,4 +43,5 @@
 
     <script src="javascript/script.js"></script>
 </body>
+
 </html>
