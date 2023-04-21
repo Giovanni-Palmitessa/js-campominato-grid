@@ -36,3 +36,7 @@ header{
 main{
     background-color: aquamarine;
 }
+
+footer{
+    padding-left: 2rem;
+}
