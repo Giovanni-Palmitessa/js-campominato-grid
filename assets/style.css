@@ -60,7 +60,10 @@ main{
     align-items: center;
     font-size: 1.5rem;
     font-weight: 700;
+}
 
+.clicked{
+    background-color: darkgoldenrod;
 }
 
 footer{
