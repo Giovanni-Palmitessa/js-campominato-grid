@@ -7,3 +7,20 @@
 body{
     font-family: sans-serif;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img{
+    width: 100px;
+}
