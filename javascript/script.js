@@ -16,7 +16,7 @@ let eleButton = document.querySelector('#play');
 
 eleButton.addEventListener('click', function () {
     createGrid (100);
-    
+
     for (let i = 0; i < listCells.length; i++) {
         const cell = listCells[i];
         cell.addEventListener('click', 
@@ -28,7 +28,7 @@ eleButton.addEventListener('click', function () {
      }
      
      for (let i = 1; i <= 100; i++) {
-         console.log(i);
+        console.log(i);
      }
 
      
