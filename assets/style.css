@@ -32,3 +32,7 @@ header{
 #play{
     padding: 0.3rem 1rem;
 }
+
+main{
+    background-color: aquamarine;
+}
