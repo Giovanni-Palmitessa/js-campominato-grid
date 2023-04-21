@@ -28,3 +28,7 @@ header{
 .logo h1{
     font-size: 2.5rem;
 }
+
+#play{
+    padding: 0.3rem 1rem;
+}
