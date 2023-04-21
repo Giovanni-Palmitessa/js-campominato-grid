@@ -23,6 +23,11 @@ for (let i = 0; i < listCells.length; i++) {
    ) 
 }
 
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+
+
 
 
 // functions
@@ -30,13 +35,11 @@ for (let i = 0; i < listCells.length; i++) {
 function createGrid(numCells) {
     for (let i = 0; i < numCells; i++) {
 
-        const value = getNumber(i);
-        eleGrid.innerHTML += `<div class="cell">${value}</div>`
+        eleGrid.innerHTML += `<div class="cell">${i + 1}<div>`
     }
 }
 
-function getNumber(numbers) {
-    for (let i = 1; i < 101; i++)
-    console.log(i);
-}
+
+   
+
 
