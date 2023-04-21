@@ -38,6 +38,7 @@ main{
     justify-content: center;
     align-items: center;
     background-color: aquamarine;
+    padding: 2rem;
 }
 
 .grid{
@@ -57,5 +58,5 @@ main{
 }
 
 footer{
-    padding-left: 2rem;
+    padding: 2rem;
 }
