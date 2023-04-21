@@ -30,8 +30,13 @@ for (let i = 0; i < listCells.length; i++) {
 function createGrid(numCells) {
     for (let i = 0; i < numCells; i++) {
 
-        const value = getNumber;
+        const value = getNumber(i);
         eleGrid.innerHTML += `<div class="cell">${value}</div>`
     }
+}
+
+function getNumber(numbers) {
+    for (let i = 1; i < 101; i++)
+    console.log(i);
 }
 
