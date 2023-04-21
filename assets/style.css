@@ -50,6 +50,12 @@ main{
     box-sizing: content-box;
 }
 
+.hidden{
+    font-size: 2.5rem;
+    margin-inline: auto;
+    padding-top: 4rem;
+}
+
 .cell{
     width: 100px;
     height: 100px;

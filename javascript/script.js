@@ -5,17 +5,18 @@ generare i quadratini della presenti all'interno della griglia
 
 const eleGrid = document.querySelector('.grid');
 
-// generare la griglia
-
-
-// applicare gli event listner a tutte le celle della griglia
-
-const listCells = document.querySelectorAll('.cell');
+let mainTitle = document.querySelector('.hidden');
 
 let eleButton = document.querySelector('#play');
 
+mainTitle.innerHTML = 'Seleziona il livello di difficoltà e genera la griglia'
+
 eleButton.addEventListener('click', function () {
+    mainTitle.innerHTML = '';
+
     createGrid (100);
+
+    const listCells = document.querySelectorAll('.cell');
 
     for (let i = 0; i < listCells.length; i++) {
         const cell = listCells[i];
@@ -30,8 +31,6 @@ eleButton.addEventListener('click', function () {
      for (let i = 1; i <= 100; i++) {
         console.log(i);
      }
-
-     
 })
 
 /*
