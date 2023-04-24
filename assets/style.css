@@ -78,44 +78,23 @@ footer{
 /* FOR 81 CELLS */
 
 .grid-md{
-    width: 630px;
-    height: 630px;
+    width: 900px;
+    height: 900px;
     display: flex;
     flex-wrap: wrap;
     background-color: aquamarine;
     box-sizing: content-box;
-}
-
-.cell-md{
-    width: 80px;
-    height: 80px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: 700;
 }
 
 /* FOR 49 CELLS */
 
 .grid-sm{
-    width: 350px;
-    height: 350px;
+    width: 700px;
+    height: 700px;
     display: flex;
     flex-wrap: wrap;
     background-color: aquamarine;
     box-sizing: content-box;
 }
 
-.cell-sm{
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    font-weight: 700;
-}
 

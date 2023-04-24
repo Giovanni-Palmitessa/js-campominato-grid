@@ -52,7 +52,19 @@ eleButton.addEventListener('click', function () {
     
     mainTitle.innerHTML = '';
 
-    createGrid (100);
+    if (value == "100") {
+        eleGrid.classList.remove("grid-md","grid-sm");
+        eleGrid.classList.add("grid");
+        createGrid(100, eleGrid);
+    } else if (value == "81") {
+        eleGrid.classList.remove("grid", "grid-sm");
+        eleGrid.classList.add( "grid-md");
+        createGrid(81, eleGrid);
+    } else if (value == "49") {
+        eleGrid.classList.remove("grid-md", "grid");
+        eleGrid.classList.add("grid-sm",);
+        createGrid(49, eleGrid);
+    }
 
     const listCells = document.querySelectorAll('.cell');
 
@@ -64,7 +76,6 @@ eleButton.addEventListener('click', function () {
      }
      
      for (let i = 1; i <= 100; i++) {
-        console.log(i);
      }
 })
 
