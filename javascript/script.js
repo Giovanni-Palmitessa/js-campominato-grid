@@ -9,12 +9,14 @@ let mainTitle = document.querySelector('.hidden');
 
 let eleButton = document.querySelector('#play');
 
-mainTitle.innerHTML = 'Seleziona il livello di difficoltà e genera la griglia'
+mainTitle.innerHTML = 'Seleziona il livello di difficoltà e genera la griglia';
+
+let selectDifficulty = document.querySelector('#difficulty').value;
 
 eleButton.addEventListener('click', function () {
     mainTitle.innerHTML = '';
 
-    createGrid (100);
+    createGrid (81);
 
     const listCells = document.querySelectorAll('.cell');
 
@@ -36,7 +38,7 @@ function createGrid(numCells) {
     eleGrid.innerHTML = '';
     for (let i = 0; i < numCells; i++) {
 
-        eleGrid.innerHTML += `<div class="cell">${i + 1}<div>`
+        eleGrid.innerHTML += `<div class="cell-md">${i + 1}<div>`
     }
 }
 

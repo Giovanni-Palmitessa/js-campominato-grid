@@ -74,3 +74,26 @@ main{
 footer{
     padding: 2rem;
 }
+
+/* FOR 81 CELLS */
+
+.grid-md{
+    width: 630px;
+    height: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    box-sizing: content-box;
+}
+
+.cell-md{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
